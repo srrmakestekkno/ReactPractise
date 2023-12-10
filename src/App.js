@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+const Button = (props) => {
+  return <button>1</button>
+};
+
 function App() {
   return (
-    <div><button>1</button></div>
+    <div>
+      <Button />
+    </div>
   );
 }
 
