@@ -19,7 +19,7 @@ const Display = (props) => {
 
 function App() {
   const [counter, setCounter] = useState(0);
-  const incremetCounter = (incrementValue) = setCounter(counter + incrementValue);
+  const incremetCounter = (incrementValue) => setCounter(counter + incrementValue);
 
   return (
     <div>
